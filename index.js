@@ -92,6 +92,7 @@ if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
     document.getElementsByTagName('head')[0].appendChild(meta);
 }
 
+canvas.style.background = "url('" + buildUrl + "/Tele_Test.jpg') center / cover";
 loadingBar.style.display = "block";
 
 var script = document.createElement("script");
