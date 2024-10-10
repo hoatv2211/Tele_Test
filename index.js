@@ -73,7 +73,7 @@ var config = {
     streamingAssetsUrl: "StreamingAssets",
     companyName: "ADNX",
     productName: "Snooze",
-    productVersion: "0.6",
+    productVersion: "0.7",
     showBanner: unityShowBanner,
 };
 
@@ -92,7 +92,6 @@ if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
     document.getElementsByTagName('head')[0].appendChild(meta);
 }
 
-canvas.style.background = "url('" + buildUrl + "/Tele_Test.jpg') center / cover";
 loadingBar.style.display = "block";
 
 var script = document.createElement("script");
