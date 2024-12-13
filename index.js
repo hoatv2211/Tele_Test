@@ -71,8 +71,8 @@ var config = {
     frameworkUrl: buildUrl + "/Tele_Test.framework.js",
     codeUrl: buildUrl + "/Tele_Test.wasm",
     streamingAssetsUrl: "StreamingAssets",
-    companyName: "ADNX",
-    productName: "Social_app",
+    companyName: "DefaultCompany",
+    productName: "Duck_Go",
     productVersion: "1.0",
     showBanner: unityShowBanner,
 };
