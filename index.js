@@ -74,7 +74,6 @@ var config = {
     companyName: "DefaultCompany",
     productName: "Duck_Go",
     productVersion: "1.0",
-    showBanner: unityShowBanner,
 };
 
 // By default Unity keeps WebGL canvas render target size matched with
